@@ -1,5 +1,11 @@
 # 更新记录
 
+## 2026-11-06 · 中英双语
+
+- 新增 `README.en.md`：完整英文说明，不是摘要；`README.md` 顶部可切换。
+- 新增 `AI-INSTALL.en.md`：英文 AI 建库协议；`AI-INSTALL.md` 顶部可切换。
+- 英文版保留目录结构、命令、模板和隐私/备份警告。
+
 ## 2026-11-06 · 预览图
 
 - 新增 `docs/images/vault-overview.svg`：Obsidian 布局示意。

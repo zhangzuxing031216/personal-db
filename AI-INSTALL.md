@@ -1,5 +1,7 @@
 # AI-INSTALL.md · 给 AI 的建库协议
 
+> **Language / 语言**: 中文 | [English](AI-INSTALL.en.md)
+
 > 目标：在用户机器上创建一个可用的 Markdown 个人知识库，或把本模板合并进已有库。
 > 原则：**先看再动、不覆盖、不删、不猜隐私、可回滚。**
 >
