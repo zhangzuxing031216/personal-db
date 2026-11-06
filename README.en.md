@@ -3,6 +3,7 @@
 > **Language / 语言**: [中文](README.md) | English
 > **Name / 名称**: Personal Knowledge Base · 个人数据库
 > **Current version**: [`v0.1.0`](CHANGELOG.md) · [Versioning rules](VERSIONING.md)
+> **Worklog**: [WORKLOG.md](WORKLOG.md)
 
 > A personal knowledge base that is **searchable, linkable, backup-friendly, and maintainable by AI**.
 > Not tied to any one app: the core is Markdown files; Obsidian is just the least-effort viewer.

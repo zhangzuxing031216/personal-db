@@ -3,6 +3,7 @@
 > **Language / 语言**: 中文 | [English](README.en.md)
 > **名称 / Name**: 个人数据库 · Personal Knowledge Base
 > **当前版本 / Current version**: [`v0.1.0`](CHANGELOG.md) · [版本规则](VERSIONING.md)
+> **工作记录 / Worklog**: [WORKLOG.md](WORKLOG.md)
 
 > 一个**可搜索、可链接、可备份、可交给 AI 维护**的个人知识库。
 > 不绑定某个 App：核心是 Markdown 文件；Obsidian 只是最省事的查看器。
