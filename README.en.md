@@ -2,6 +2,7 @@
 
 > **Language / 语言**: [中文](README.md) | English
 > **Name / 名称**: Personal Knowledge Base · 个人数据库
+> **Current version**: [`v0.1.0`](CHANGELOG.md) · [Versioning rules](VERSIONING.md)
 
 > A personal knowledge base that is **searchable, linkable, backup-friendly, and maintainable by AI**.
 > Not tied to any one app: the core is Markdown files; Obsidian is just the least-effort viewer.
@@ -12,6 +13,7 @@
 > - The rules live in `vault-template/AGENTS.md`; this repo is a **generic skeleton**, not your private notes.
 
 <p>
+  <img alt="Version v0.1.0" src="https://img.shields.io/badge/version-v0.1.0-2563eb?style=flat-square">
   <img alt="Markdown" src="https://img.shields.io/badge/Markdown-notes-000000?logo=markdown&logoColor=white&style=flat-square">
   <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-vault-7C3AED?logo=obsidian&logoColor=white&style=flat-square">
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square">
@@ -45,6 +47,7 @@ This is a **personal knowledge base skeleton that is not tied to any app**: the 
 | Rules, workflow, backup, troubleshooting | `docs/` (Chinese) |
 | Broken-link/orphan check script | `scripts/check-links.py` |
 | Layout diagram | `docs/images/` |
+| Version and changelog | `VERSION` / `CHANGELOG.md` / `VERSIONING.md` |
 
 > English scope: this README and `AI-INSTALL.en.md` are complete translations. The optional deep-dive files under `docs/` are currently in Chinese.
 

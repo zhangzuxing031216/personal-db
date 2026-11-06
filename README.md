@@ -2,6 +2,7 @@
 
 > **Language / 语言**: 中文 | [English](README.en.md)
 > **名称 / Name**: 个人数据库 · Personal Knowledge Base
+> **当前版本 / Current version**: [`v0.1.0`](CHANGELOG.md) · [版本规则](VERSIONING.md)
 
 > 一个**可搜索、可链接、可备份、可交给 AI 维护**的个人知识库。
 > 不绑定某个 App：核心是 Markdown 文件；Obsidian 只是最省事的查看器。
@@ -12,6 +13,7 @@
 > - 规则以 `vault-template/AGENTS.md` 为准；本仓库是**通用骨架**，不是你的私人笔记。
 
 <p>
+  <img alt="Version v0.1.0" src="https://img.shields.io/badge/version-v0.1.0-2563eb?style=flat-square">
   <img alt="Markdown" src="https://img.shields.io/badge/Markdown-notes-000000?logo=markdown&logoColor=white&style=flat-square">
   <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-vault-7C3AED?logo=obsidian&logoColor=white&style=flat-square">
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square">
@@ -45,6 +47,7 @@
 | 规则、流程、备份、排错 | `docs/` |
 | 断链/孤岛检查脚本 | `scripts/check-links.py` |
 | 布局示意 | `docs/images/` |
+| 版本与更新记录 | `VERSION` / `CHANGELOG.md` / `VERSIONING.md` |
 
 **新手先做这 3 步**
 
