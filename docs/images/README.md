@@ -1,10 +1,11 @@
 # 图片说明
 
-本目录目前是 **SVG 示意图**，不是真实截图。
+本目录放 **SVG 示意图 + Obsidian 真实截图**。
 
 | 文件 | 内容 |
 |---|---|
 | `vault-overview.svg` | Obsidian 布局示意：目录树、属性、双链、反向链接、图谱 |
+| `obsidian-real.png` | **真实截图**：Obsidian 1.15.0 打开示例 vault 的 `00-index` |
 
 ## 为什么用示意图
 

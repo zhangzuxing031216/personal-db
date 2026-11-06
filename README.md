@@ -8,15 +8,60 @@
 > - 想让 AI 帮你建库/整理？把 `AI-INSTALL.md` 丢给 AI。
 > - 规则以 `vault-template/AGENTS.md` 为准；本仓库是**通用骨架**，不是你的私人笔记。
 
+<p>
+  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-notes-000000?logo=markdown&logoColor=white&style=flat-square">
+  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-vault-7C3AED?logo=obsidian&logoColor=white&style=flat-square">
+  <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square">
+  <img alt="中文文档" src="https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-0ea5e9?style=flat-square">
+</p>
+
+## 项目简介
+
+这是一个**不绑定 App 的个人知识库骨架**：核心是 Markdown 文件，Obsidian 只是最省事的查看器。目录、模板、双链、周回顾、备份和 AI 维护规则都给了最小可用版本。
+
+**适合谁**
+
+- 笔记散在微信、网盘、桌面，想收进一个能搜索的库的人。
+- 想用 Obsidian，但不想一上来设计 20 个文件夹的人。
+- 想让 AI 帮忙整理，又怕它乱改原文的人。
+
+**不适合谁**
+
+- 需要多人实时协作、权限审批的团队知识库。
+- 想要“全自动整理、完全不用自己回顾”的人；这套流程仍需要每周 10 分钟。
+- 必须把数据放在某个云端 SaaS、不接受本地文件的人。
+
+**你会得到什么**
+
+| 产物 | 位置 |
+|---|---|
+| 人看的建库/流程/备份/隐私 | `README.md`（本文） |
+| AI 建库/合并/验证协议 | `AI-INSTALL.md` |
+| 可直接复制的 vault 骨架 | `vault-template/` |
+| 笔记/项目/会议模板 | `vault-template/_templates/` |
+| 规则、流程、备份、排错 | `docs/` |
+| 断链/孤岛检查脚本 | `scripts/check-links.py` |
+| 布局示意 | `docs/images/` |
+
+**新手先做这 3 步**
+
+1. 复制 `vault-template/` 到一个自己找得到的位置，用 Obsidian 打开。
+2. 先清空示例笔记，只保留 `00-index.md` 和 `AGENTS.md`。
+3. 按第 6 节走一周：收件箱 → 项目/领域/资源 → 周回顾。
+
 ---
 
 ## 效果预览
 
-建好之后，在 Obsidian 里大概是这个样子：左边是固定目录，中间是带属性的笔记，右边是反向链接和图谱。
+**本机真实截图**：Obsidian 1.15.0 打开示例 vault，左侧固定目录、中间是带属性的 `00-index`。
+
+![Obsidian 真实界面](docs/images/obsidian-real.png)
+
+**完整布局示意**：再加上反向链接和图谱的样子。
 
 ![个人知识库布局示意](docs/images/vault-overview.svg)
 
-> 这是**示意图**，不是真实截图；里面没有真实私人笔记。
+> 真实截图用的是示例 vault，没有真实私人笔记；示意图只用于展示右侧反向链接和图谱。
 
 ---
 

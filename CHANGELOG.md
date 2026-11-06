@@ -3,8 +3,9 @@
 ## 2026-11-06 · 预览图
 
 - 新增 `docs/images/vault-overview.svg`：Obsidian 布局示意。
+- 新增 `docs/images/obsidian-real.png`：Obsidian 1.15.0 真实界面截图。
 - 新增 `docs/images/README.md`。
-- `README.md` 增加“效果预览”。
+- `README.md` 增加“效果预览”和首屏徽章/简介/新手 3 步。
 
 ## 2026-11-06 · v0.1
 
