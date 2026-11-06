@@ -1,6 +1,7 @@
-# 个人数据库 · Markdown 知识库骨架
+# 个人数据库 · Personal Knowledge Base（Markdown 知识库骨架）
 
 > **Language / 语言**: 中文 | [English](README.en.md)
+> **名称 / Name**: 个人数据库 · Personal Knowledge Base
 
 > 一个**可搜索、可链接、可备份、可交给 AI 维护**的个人知识库。
 > 不绑定某个 App：核心是 Markdown 文件；Obsidian 只是最省事的查看器。
