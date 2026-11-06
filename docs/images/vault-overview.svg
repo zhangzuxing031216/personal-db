@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Personal knowledge base Obsidian layout mockup">
+  <defs>
+    <style>
+      .bg { fill: #1e1e1e; }
+      .side { fill: #252526; }
+      .ribbon { fill: #181818; }
+      .tab { fill: #1e1e1e; }
+      .panel { fill: #202020; stroke: #333333; stroke-width: 1; }
+      .title { fill: #e5e7eb; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 18px; font-weight: 700; }
+      .h2 { fill: #f3f4f6; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 14px; font-weight: 700; }
+      .t { fill: #d1d5db; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 11px; }
+      .s { fill: #9ca3af; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 10px; }
+      .tiny { fill: #6b7280; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 9px; }
+      .link { fill: #7dd3fc; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 11px; }
+      .tag { fill: #c4b5fd; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 9px; }
+      .grid { stroke: #333333; stroke-width: 1; }
+      .node { fill: #334155; stroke: #7dd3fc; stroke-width: 1.2; }
+      .node2 { fill: #3f3f46; stroke: #a78bfa; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="760"/>
+
+  <!-- ribbon -->
+  <rect class="ribbon" width="48" height="760"/>
+  <circle cx="24" cy="34" r="9" fill="#7c3aed"/>
+  <text x="18" y="80" class="s">⌂</text>
+  <text x="18" y="116" class="s">⌕</text>
+  <text x="18" y="152" class="s">▤</text>
+  <text x="18" y="188" class="s">◎</text>
+  <text x="18" y="224" class="s">◇</text>
+  <text x="18" y="700" class="s">⚙</text>
+
+  <!-- tabs -->
+  <rect x="48" y="0" width="1152" height="40" fill="#181818"/>
+  <rect x="48" y="0" width="210" height="40" class="tab"/>
+  <text x="66" y="25" class="t">example-project</text>
+  <text x="238" y="25" class="tiny">×</text>
+  <rect x="266" y="0" width="130" height="40" fill="#181818"/>
+  <text x="282" y="25" class="s">00-index</text>
+
+  <!-- left tree -->
+  <rect class="side" x="48" y="40" width="230" height="692"/>
+  <text x="64" y="66" class="tiny">VAULT</text>
+  <text x="64" y="90" class="s" fill="#e5e7eb">PERSONAL-DB</text>
+
+  <text x="64" y="122" class="s">▾ 00-index.md</text>
+  <text x="64" y="146" class="s">▾ 01-inbox</text>
+  <text x="80" y="170" class="s">quick-capture.md</text>
+  <text x="64" y="194" class="s">▾ 02-projects</text>
+  <rect x="56" y="204" width="214" height="24" rx="4" fill="#37373d"/>
+  <text x="78" y="220" class="t" fill="#ffffff">example-project.md</text>
+  <text x="64" y="248" class="s">▸ 03-areas</text>
+  <text x="64" y="272" class="s">▾ 04-resources</text>
+  <text x="80" y="296" class="s">example-note.md</text>
+  <text x="80" y="318" class="s">caddy-https.md</text>
+  <text x="64" y="342" class="s">▸ 05-archive</text>
+  <text x="64" y="366" class="s">▸ _templates</text>
+  <text x="64" y="390" class="s">▸ _attachments</text>
+
+  <line x1="64" y1="412" x2="262" y2="412" class="grid"/>
+  <text x="64" y="436" class="tiny">TAGS</text>
+  <rect x="64" y="448" width="54" height="20" rx="10" fill="#312e81"/>
+  <text x="74" y="462" class="tag">#project</text>
+  <rect x="126" y="448" width="62" height="20" rx="10" fill="#3b0764"/>
+  <text x="136" y="462" class="tag">#database</text>
+  <rect x="196" y="448" width="46" height="20" rx="10" fill="#164e63"/>
+  <text x="204" y="462" class="tag">#sqlite</text>
+
+  <text x="64" y="494" class="tiny">LAST REVIEW</text>
+  <text x="64" y="514" class="s">2026-11-05</text>
+
+  <!-- note -->
+  <rect x="278" y="40" width="640" height="692" class="tab"/>
+  <text x="308" y="84" class="tiny">02-projects / example-project.md</text>
+  <text x="308" y="120" class="title">example-project</text>
+
+  <rect x="308" y="140" width="580" height="116" rx="8" class="panel"/>
+  <text x="324" y="162" class="tiny">PROPERTIES</text>
+  <text x="324" y="186" class="s">status</text>
+  <rect x="392" y="173" width="66" height="20" rx="4" fill="#14532d"/>
+  <text x="402" y="187" class="tag" fill="#86efac">active</text>
+  <text x="324" y="210" class="s">tags</text>
+  <text x="392" y="210" class="tag" fill="#c4b5fd">project, database, sqlite</text>
+  <text x="324" y="234" class="s">updated</text>
+  <text x="392" y="234" class="s">2026-11-05</text>
+  <text x="640" y="186" class="s">owner</text>
+  <text x="700" y="186" class="s">me</text>
+  <text x="640" y="210" class="s">review</text>
+  <text x="700" y="210" class="s">weekly</text>
+
+  <text x="308" y="292" class="h2">目标</text>
+  <text x="308" y="314" class="t">把个人资料、项目记录、踩坑手册收进一个可搜索、可链接、可备份的库。</text>
+
+  <text x="308" y="348" class="h2">当前状态</text>
+  <text x="308" y="370" class="t">- 目录骨架已建；收件箱每周清一次。</text>
+  <text x="308" y="390" class="t">- 数据库先用 SQLite；接口层已抽出。</text>
+  <text x="308" y="410" class="t">- 备份：本地 Git + 移动硬盘 + 异地。</text>
+
+  <text x="308" y="444" class="h2">相关笔记</text>
+  <text x="308" y="466" class="link">[[04-resources/example-note]]</text>
+  <text x="520" y="466" class="s">为什么先搜再写</text>
+  <text x="308" y="488" class="link">[[caddy-https]]</text>
+  <text x="420" y="488" class="s">部署中转站时用到的 HTTPS 记录</text>
+  <text x="308" y="510" class="link">[[backup-3-2-1]]</text>
+  <text x="438" y="510" class="s">备份策略</text>
+
+  <text x="308" y="544" class="h2">下一步</text>
+  <text x="308" y="566" class="t">1. 把本周收件箱清空；2. 给 3 条旧笔记补链接；3. 跑一次恢复演练。</text>
+
+  <rect x="308" y="590" width="580" height="52" rx="8" fill="#181818" stroke="#333333"/>
+  <text x="324" y="610" class="tiny" fill="#fbbf24">规则提醒</text>
+  <text x="324" y="628" class="s">先搜再写；追加优先；不覆盖原文；AI 改动要能回滚。</text>
+
+  <!-- right side -->
+  <rect class="side" x="918" y="40" width="282" height="692"/>
+
+  <text x="936" y="70" class="h2">Backlinks</text>
+  <rect x="936" y="84" width="246" height="46" rx="6" class="panel"/>
+  <text x="948" y="103" class="s" fill="#7dd3fc">00-index</text>
+  <text x="948" y="119" class="tiny">入口页引用本项目</text>
+
+  <rect x="936" y="138" width="246" height="46" rx="6" class="panel"/>
+  <text x="948" y="157" class="s" fill="#7dd3fc">weekly-review-2026-11-05</text>
+  <text x="948" y="173" class="tiny">周回顾里提到下一步</text>
+
+  <text x="936" y="214" class="h2">Outgoing links</text>
+  <text x="936" y="236" class="s" fill="#7dd3fc">example-note</text>
+  <text x="936" y="256" class="s" fill="#7dd3fc">caddy-https</text>
+  <text x="936" y="276" class="s" fill="#7dd3fc">backup-3-2-1</text>
+
+  <line x1="936" y1="298" x2="1182" y2="298" class="grid"/>
+  <text x="936" y="324" class="h2">Graph</text>
+  <rect x="936" y="338" width="246" height="220" rx="8" fill="#181818" stroke="#333333"/>
+  <line x1="1059" y1="448" x2="1000" y2="392" stroke="#475569"/>
+  <line x1="1059" y1="448" x2="1118" y2="392" stroke="#475569"/>
+  <line x1="1059" y1="448" x2="1002" y2="506" stroke="#475569"/>
+  <line x1="1059" y1="448" x2="1120" y2="506" stroke="#475569"/>
+  <line x1="1000" y1="392" x2="1118" y2="392" stroke="#334155" stroke-dasharray="3 3"/>
+  <circle cx="1059" cy="448" r="22" class="node"/>
+  <text x="1039" y="452" class="tiny" fill="#e5e7eb">project</text>
+  <circle cx="1000" cy="392" r="16" class="node2"/>
+  <text x="984" y="396" class="tiny" fill="#e5e7eb">note</text>
+  <circle cx="1118" cy="392" r="16" class="node2"/>
+  <text x="1102" y="396" class="tiny" fill="#e5e7eb">caddy</text>
+  <circle cx="1002" cy="506" r="16" class="node2"/>
+  <text x="984" y="510" class="tiny" fill="#e5e7eb">backup</text>
+  <circle cx="1120" cy="506" r="16" class="node2"/>
+  <text x="1104" y="510" class="tiny" fill="#e5e7eb">review</text>
+
+  <text x="936" y="590" class="h2">Actions</text>
+  <rect x="936" y="604" width="112" height="28" rx="6" class="panel"/>
+  <text x="950" y="622" class="s">搜索</text>
+  <rect x="1058" y="604" width="124" height="28" rx="6" class="panel"/>
+  <text x="1072" y="622" class="s">新建笔记</text>
+
+  <!-- status -->
+  <rect x="48" y="732" width="1152" height="28" fill="#181818"/>
+  <text x="64" y="750" class="tiny">1,240 words · 12 links · 3 backlinks</text>
+  <text x="1000" y="750" class="tiny">Markdown · UTF-8</text>
+
+  <text x="48" y="722" class="tiny" fill="#f59e0b">示意图（mockup）：展示知识库的目录、属性、双链和图谱关系，不是真实截图，也不含真实私人笔记。</text>
+</svg>

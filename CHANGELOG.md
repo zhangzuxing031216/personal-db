@@ -1,5 +1,11 @@
 # 更新记录
 
+## 2026-11-06 · 预览图
+
+- 新增 `docs/images/vault-overview.svg`：Obsidian 布局示意。
+- 新增 `docs/images/README.md`。
+- `README.md` 增加“效果预览”。
+
 ## 2026-11-06 · v0.1
 
 - 初版通用骨架（规则仍在更新中；以你本地最新 `AGENTS.md` 为准）。
